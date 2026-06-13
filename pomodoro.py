@@ -53,7 +53,7 @@ class PomodoroTimer:
         self.work_duration = 25 * 60         # 25 分钟（秒）
         self.break_duration = 5 * 60         # 短休息 5 分钟
         self.long_break_duration = 15 * 60   # 长休息 15 分钟
-        self.long_break_interval = 2         # 每 N 个番茄触发长休息
+        self.long_break_interval = 3         # 每 N 个番茄触发长休息
         self.current_time = self.work_duration
         self.running = False
         self.paused = False
